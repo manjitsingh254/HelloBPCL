@@ -27,6 +27,7 @@
             color: #333;
             margin-top: 20px;
             font-family: 'FS Industrie Wide Bold', Arial, sans-serif;
+            
         }
 
         p {
@@ -51,23 +52,24 @@
             max-width: 200px;
             
         }
-        @media (max-width: 768px) {
+
+         @media (max-width: 768px) {
+            /* Adjust styles for screens up to 768px wide */
+            .logo {
+                height: auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            /* Adjust styles for screens up to 480px wide */
             h1 {
                 font-size: 24px;
             }
             p {
                 font-size: 14px;
             }
-            .store-logos {
-                flex-direction: column;
-                align-items: center;
-                margin-top: -10px;
-
-            }
-            .store-logo {
-                margin: 10px 0;
-            }
         }
+        
     </style>
 </head>
 <body>
