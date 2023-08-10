@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello BPCL</title>
+    <style>
+
+        @font-face {
+            font-family: 'FS Industrie Wide Bold';
+            src: url('fonts/Bold.otf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(to bottom, #5DBCD2, #C6E4CB);
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 20px;
+            font-family: 'FS Industrie Wide Bold', Arial, sans-serif;
+        }
+
+        p {
+            text-align: center;
+            color: #666;
+        }
+
+        .logo {
+            display: block;
+            max-width: 100%;
+        }
+
+        .store-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .store-logo {
+            margin: 0 20px;
+            max-width: 200px;
+            
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 14px;
+            }
+            .store-logos {
+                flex-direction: column;
+                align-items: center;
+                margin-top: -10px;
+
+            }
+            .store-logo {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img class="logo" src="img/Logo.jpg" alt="Hello BPCL Logo" height="230px">
+    <h1>HelloBPCL</h1>
+    <img src="img/vector.png" alt="vector" width="500px" height="20px">
+    <p>
+        From booking a gas cylinder to seamlessly paying for fuel vouchers, <b>Hello BPCL</b> is a convenient way to energise your lives.    
+        
+    </p>
+
+    <div class="store-logos">
+        <a href="https://play.google.com/store/apps/details?id=com.cgt.bharatgas&hl=en&gl=US" target="_blank">
+            <img class="store-logo" src="img/google play.png" alt="Google Play Store">
+        </a>
+        <a href="https://apps.apple.com/in/app/hello-bpcl/id594797915" target="_blank">
+            <img class="store-logo" src="img/Apple_icon.png" alt="Apple App Store" height="53px">
+        </a>
+    </div>
+</body>
+</html>
