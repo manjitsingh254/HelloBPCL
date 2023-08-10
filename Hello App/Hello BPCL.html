@@ -3,7 +3,6 @@
 <head>
     <title>Hello BPCL</title>
     <style>
-
         @font-face {
             font-family: 'FS Industrie Wide Bold';
             src: url('fonts/Bold.otf') format('truetype');
@@ -25,8 +24,8 @@
 
         .container {
             width: 100%;
-            max-width: 800px; /* Adjust the maximum width as needed */
-            margin: 0 auto; /* Center the container horizontally */
+            max-width: 800px; 
+            margin: 0 auto; 
             padding: 20px;
             box-sizing: border-box;
         }
@@ -35,66 +34,59 @@
             color: #333;
             margin-top: 20px;
             font-family: 'FS Industrie Wide Bold', Arial, sans-serif;
-            text-align: center; /* Center the text */
+            text-align: center; 
+            font-size: 54px; 
         }
 
         p {
             text-align: center;
             color: #666;
+            font-size: 40px;
         }
 
         .logo {
             display: block;
             max-width: 100%;
-            margin: 0 auto; /* Center the logo */
+            margin: 0 auto; 
+            height: 630px; 
         }
 
         .store-logos {
             display: flex;
-            flex-direction: column; /* Stack buttons vertically */
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
-            margin-top: 10px; /* Reduced margin for buttons */
+            margin-top: 30px;
         }
 
         .store-logo {
-            margin: 5px 0; /* Adjust margin between buttons */
-            max-width: 200px;
+            margin: 0 20px;
+            max-width: 400px;
         }
 
-        /* Media query for mobile devices */
-        @media (max-width: 480px) {
+        
+        @media (max-width: 768px) {
             .container {
-                padding: 10px; /* Reduce padding for smaller screens */
-                font-size: 16px; /* Increase font size */
-            }
-            h1 {
-                font-size: 30px; /* Increase font size for heading */
-            }
-            p {
-                max-width: 80%; /* Limit paragraph width */
-                margin: 10px auto; /* Center the paragraph */
-            }
-            .store-logos {
-                margin-top: 20px; /* Increase margin for buttons */
+                padding: 10px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img class="logo" src="img/Logo.jpg" alt="Hello BPCL Logo" height="230px">
+        <img class="logo" src="img/Logo.jpg" alt="Hello BPCL Logo">
         <h1>HelloBPCL</h1>
         <img src="img/vector.png" alt="vector" width="100%" height="30px">
         <p>
-            From booking a gas cylinder to seamlessly paying for fuel vouchers, <b>Hello BPCL</b> is a convenient way to energize your lives.
+            From booking a gas cylinder to seamlessly paying for fuel vouchers, <b>Hello BPCL</b> is a convenient way to energise your lives.
         </p>
 
         <div class="store-logos">
             <a href="https://play.google.com/store/apps/details?id=com.cgt.bharatgas&hl=en&gl=US" target="_blank">
-                <img class="store-logo" src="img/google play.png" alt="Google Play Store">
+                <img class="store-logo" src="img/google play.png" alt="Google Play Store" width="270px">
             </a>
             <a href="https://apps.apple.com/in/app/hello-bpcl/id594797915" target="_blank">
-                <img class="store-logo" src="img/Apple_icon.png" alt="Apple App Store" height="53px">
+                <img class="store-logo" src="img/Apple_icon.png" alt="Apple App Store" width="240px">
             </a>
         </div>
     </div>
